@@ -15,7 +15,7 @@
         
         <div id="app">
             <navbar></navbar>
-            <example></example>
+            <blog></blog>
         </div>
 
         <script src="{{ asset('js/app.js') }}"></script>

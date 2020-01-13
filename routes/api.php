@@ -23,5 +23,7 @@ Route::group(['prefix' => 'student'], function ($route) {
     $route->get('/', $controller.'@index');
     $route->get('/{id}', $controller.'@show');
     $route->post('/', $controller.'@store');
+    $route->put('/{id}',$controller.'@update');
+    $route->delete('/{id}', $controller.'@destroy');
 
 });
